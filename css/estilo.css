@@ -1,0 +1,43 @@
+/*HOME*/
+.logo {text-align: center; background-color: #bd9973;}
+.imglog {width:120px; height:90px;}
+.imghead {width: 1000px; height: 200px; display: block; margin: auto;}
+.fototorta {width: 300px; height: 200px; display: block; margin: auto;}
+h1 {font-family: 'Nunito Sans', sans-serif; text-align: center;}
+ul {list-style: none; display: flex; flex-direction: row; padding: 10px; font-size: 28px;}
+li {display: inline; margin: 20px;padding: 10px;}
+.contacto {text-align:center;}
+.rs {text-align: center;}
+.imagenesloc {display: flex; justify-content: center;}
+.imagen1 {width:65px; height: 60px;display: inline;}
+.imagen2 {width:95px; height: 90px;display: inline;}
+.imagen3 {width:65px; height: 60px;display: inline;}
+h4 {margin: 30px;}
+.fototorta {display: block;}
+.instagram {text-align: center;color:#91744c; font-size: 50px; font-family: 'Nunito Sans', sans-serif; }
+.logof {text-align: left; width: 110px; height: 80px; margin:  50px;}
+.foot {background-color: #bd9973;}
+
+/*PRODUCTOS*/
+.logoo {text-align: center; background-color: #bd9973;}
+.imglogp {width: 120px; height: 90px;}
+.logop {text-align:left; width: 110px; height: 80px; margin: 50px;}
+.rrss {text-align: center;}
+.contactop {text-align: center;}
+.footp {background-color: #bd9973;}
+.diftortas {text-align: center;}
+.cake1 {width: 300px; height: 200px;}
+.cake2 {font-family: 'Nunito Sans', sans-serif;}
+
+/*NOSOTROS*/ 
+.infon {font-family: 'Nunito Sans', sans-serif; text-align: center ;}
+.qsfotonn {width:300px; height: 200px; text-align: center;}
+
+/*EXPERIENCIAS*/
+.usuario1 {text-align: center;}
+.op1 {width: 300px; height: 200px;}
+.op2 {font-family: 'Nunito Sans', sans-serif;}
+.form {display: block;text-decoration: dotted;}
+
+/*CONTACTO*/
+.contacinf {text-align: center;}
