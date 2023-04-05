@@ -4,30 +4,32 @@
 .imghead {width: 1000px; height: 200px; display: block; margin: auto;}
 .fototorta {width: 300px; height: 200px; display: block; margin: auto;}
 h1 {font-family: 'Nunito Sans', sans-serif; text-align: center;}
-ul {list-style: none; display: flex; flex-direction: row; padding: 10px; font-size: 28px;}
+ul {list-style: none; font-size: 28px; align-content: center;}
 li {display: inline; margin: 20px;padding: 10px;}
-.contacto {text-align:center;}
-.rs {text-align: center;}
+a {text-decoration: none; font-size: 25px;}
+.contacto {border: 7px; font-family: 'Nunito Sans', sans-serif; padding: 45px;}
+.redes {font-family: 'Nunito Sans', sans-serif;}
+.rs {border: 7px; padding: 45px;} 
 .imagenesloc {display: flex; justify-content: center;}
 .imagen1 {width:65px; height: 60px;display: inline;}
 .imagen2 {width:95px; height: 90px;display: inline;}
 .imagen3 {width:65px; height: 60px;display: inline;}
-h4 {margin: 30px;}
+h4 {margin: 30px; vertical-align: middle; font-family: 'Nunito Sans', sans-serif; }
 .fototorta {display: block;}
+.diftortas {width: auto; border: 5px;}
 .instagram {text-align: center;color:#91744c; font-size: 50px; font-family: 'Nunito Sans', sans-serif; }
 .logof {text-align: left; width: 110px; height: 80px; margin:  50px;}
-.foot {background-color: #bd9973;}
+.foot{background-color: #bd9973;}
+body {background-color: #faecd2;}
 
 /*PRODUCTOS*/
 .logoo {text-align: center; background-color: #bd9973;}
 .imglogp {width: 120px; height: 90px;}
 .logop {text-align:left; width: 110px; height: 80px; margin: 50px;}
-.rrss {text-align: center;}
-.contactop {text-align: center;}
-.footp {background-color: #bd9973;}
-.diftortas {text-align: center;}
-.cake1 {width: 300px; height: 200px;}
-.cake2 {font-family: 'Nunito Sans', sans-serif;}
+.footp {background-color: #bd9973;display:flex;flex-direction: row;}
+.cake1 {width: 300px; height: 200px; margin: 10px;}
+.cake2 {font-family: 'Nunito Sans', sans-serif; }
+
 
 /*NOSOTROS*/ 
 .infon {font-family: 'Nunito Sans', sans-serif; text-align: center ;}
@@ -39,5 +41,26 @@ h4 {margin: 30px;}
 .op2 {font-family: 'Nunito Sans', sans-serif;}
 .form {display: block;text-decoration: dotted;}
 
+
 /*CONTACTO*/
 .contacinf {text-align: center;}
+
+/*MOBILE*/
+@media screen and (max-width:768px) {h1 {font-size: 20px ; font-family: 'Nunito Sans', sans-serif; text-align: center;}
+.imghead{width: 400px; height: 100px; display: block; align-content: left;}
+.gridcont{display: grid; grid-template-columns: 400px; grid-template-rows: 450px 300px 300px;}
+ul {display:flex ;flex-direction: row; font-size: 20px;}
+a {font-size: 15px;} li {display: inline; margin: 3px; padding: 3px;}
+.imagenesloc{display: block;}}
+
+
+/*DESKTOP*/
+@media screen and (min-width:1024px) {
+.gridexp {display: grid; grid-template-columns: 1510px; grid-template-rows: 500px 1200px 200px;}
+.gridcont {display: grid; grid-template-columns: 1510px; grid-template-rows:550px 350px 200px}
+.diftortas {display: flex; flex-direction: row; flex-wrap: wrap;}
+.gridnos {display: grid; grid-template-columns: 1510px; grid-template-rows:550px 450px 200px;}
+.gridhome {display: grid; grid-template-columns: 1510px; grid-template-rows: 600px 600px 200px;}
+.foot {display:flex;flex-direction: row;}
+ul {display: flex; flex-direction: row; flex-wrap: wrap; align-content: center;} 
+.imglogp {width: 120px; height: 90px;}}
